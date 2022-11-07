@@ -2,7 +2,7 @@
 export default {
     data() {
         return {
-            imgName: `326271.png`
+            imgName: `redline.jpg`
         }
     },
     methods: {
