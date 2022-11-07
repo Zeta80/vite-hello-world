@@ -1,7 +1,7 @@
 
 
 <script >
-import AppJumbo from "./components/AppJumbo.vue";
+import AppHero from "./components/AppHero.vue";
 export default {
   data() {
     return {
@@ -9,7 +9,7 @@ export default {
     }
   },
   components: {
-    AppJumbo
+    AppHero
   },
   methods: {
     saluta() {
@@ -22,9 +22,7 @@ export default {
 
 <template>
   <h1>{{ message }}</h1>
-
-  <AppJumbo />
-
+  <AppHero />
 </template>
 
 <style >
